@@ -4,7 +4,6 @@ type Point     = (Float,Float)
 type Rect      = (Point,Float,Float)
 type Circle    = (Point,Float)
 type Triangle  = (Point,Point,Point)
-type Estrela   = (Point,Point,Point,Point,Point)
 
 ------------------------------------------------------------------------- Informações da imagem 
 -----------------------------------------------------------------------
@@ -17,13 +16,13 @@ maxAltura = 500
 ------------------------------------------------------------------------- Informaçoes das figuras
 -----------------------------------------------------------------------
 maxRaio :: Float
-maxRaio = 10
+maxRaio = 5
 
 maxGap :: Float
 maxGap = 50
 
 maxLado :: Float
-maxLado = 100
+maxLado = 80
 
 numTriangulos :: Int
 numTriangulos = 3
