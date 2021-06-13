@@ -4,11 +4,12 @@ Curso: Ciência da Computação <br/>
 
 <h4> Como compilar: </h4>
 Para compilar o arquivo utilizei os seguintes comandos <br/>
- - ghci <br/>
- - :l Main.hs <br/>
- - main <br/>
- -
+ <\t>- ghci <br/>
+ <\t>- :l Main.hs <br/>
+ <\t>- main <br/>
+ 
 <h4>Como funciona: </h4>
+
 
 <img src="/t1.svg" width="400" heigth="500"/>  <img src="/t2.svg" width="400" heigth="500"/> <img src="/t3.svg" width="400" heigth="500"/>
  
