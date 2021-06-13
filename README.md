@@ -1,5 +1,5 @@
 <h1 align="center"> Generative Art com Programação Funcional em Haskell</h1>
-Nome: Gabriele Soares Quevedo
+Nome: Gabriele Soares Quevedo\n
 Curso: Ciência da Computação
 <h4> Como compilar: </h4>
 
