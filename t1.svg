@@ -1,0 +1,16 @@
+<svg width='800.00' height='500.00' xmlns='http://www.w3.org/2000/svg'>
+<polygon points = '250.000,0.000 500.000,250.000 350.000,250.000' style='fill:rgb(20,0,40);stroke-width:5;stroke:rgb(0,0,0);' />
+<polygon points = '250.000,166.667 500.000,250.000 350.000,250.000' style='fill:rgb(40,0,60);stroke-width:5;stroke:rgb(0,0,0);' />
+<polygon points = '250.000,333.333 500.000,250.000 350.000,250.000' style='fill:rgb(60,0,80);stroke-width:5;stroke:rgb(0,0,0);' />
+<circle cx='100.000' cy='100.000' r='0.000' style='fill:rgb(225,15,0);mix-blend-mode:luminosity;'/>
+<circle cx='100.000' cy='100.000' r='11.283' style='fill:rgb(450,30,15);mix-blend-mode:luminosity;'/>
+<circle cx='100.000' cy='100.000' r='22.566' style='fill:rgb(675,45,30);mix-blend-mode:luminosity;'/>
+<circle cx='100.000' cy='100.000' r='33.850' style='fill:rgb(900,60,45);mix-blend-mode:luminosity;'/>
+<circle cx='100.000' cy='100.000' r='45.133' style='fill:rgb(1125,75,60);mix-blend-mode:luminosity;'/>
+<rect x='720.000' y='0.000' width='80.00' height='500.00' style='fill:rgb(30,45,15);mix-blend-mode:screen;' />
+<rect x='720.000' y='80.000' width='80.00' height='500.00' style='fill:rgb(40,75,25);mix-blend-mode:screen;' />
+<rect x='720.000' y='160.000' width='80.00' height='500.00' style='fill:rgb(50,105,35);mix-blend-mode:screen;' />
+<rect x='720.000' y='240.000' width='80.00' height='500.00' style='fill:rgb(60,135,45);mix-blend-mode:screen;' />
+<rect x='720.000' y='320.000' width='80.00' height='500.00' style='fill:rgb(70,165,55);mix-blend-mode:screen;' />
+<rect x='720.000' y='400.000' width='80.00' height='500.00' style='fill:rgb(80,195,65);mix-blend-mode:screen;' />
+</svg>
