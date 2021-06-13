@@ -4,9 +4,9 @@ Curso: Ciência da Computação
 
 <h4> Como compilar: </h4>
 Para compilar o arquivo utilizei os seguintes comandos respectivamente
- - ghci
- - :l Main.hs
- - main
+ - ghci <br/>
+ - :l Main.hs <br/>
+ - main <br/>
  -
 <h4>Como funciona: </h4>
 
