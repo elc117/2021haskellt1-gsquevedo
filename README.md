@@ -1,9 +1,9 @@
 <h1 align="center"> Generative Art com Programação Funcional em Haskell</h1>
-Nome: Gabriele Soares Quevedo
-Curso: Ciência da Computação
+Nome: Gabriele Soares Quevedo <br/>
+Curso: Ciência da Computação <br/>
 
 <h4> Como compilar: </h4>
-Para compilar o arquivo utilizei os seguintes comandos respectivamente
+Para compilar o arquivo utilizei os seguintes comandos <br/>
  - ghci <br/>
  - :l Main.hs <br/>
  - main <br/>
