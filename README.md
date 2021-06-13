@@ -9,7 +9,9 @@ Para compilar o arquivo utilizei os seguintes comandos <br/>
       - main <br/>
  
 <h4>Como funciona: </h4>
-
+Fiz algumas alterações simples no Generative Art, a principio a ideia foi desenhar circulos, retangulo e triangulos que serão controlados pelas coordenadas que o usuário modificar no arquivo
+- O <b>circulo</b> são interligados pelo tamanho do raio e pela quantidade de circulos: ao aumentar o raio, o style desenha o circulo conforme a função que compara o raio(tipoRaio), sendo possível gerar 4 tipos de style do circulo, sendo eles: difference, screen, iluminosity e exclusion.
+- O <b>retangulo</b>
 
 <img src="/t1.svg" width="400" heigth="500"/>  <img src="/t2.svg" width="400" heigth="500"/> <img src="/t3.svg" width="400" heigth="500"/>
  
