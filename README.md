@@ -1,7 +1,5 @@
 
 Generative Art com Programação Funcional em Haskell
-Nome: Gabriele Soares Quevedo 
-Curso: Ciência da Computação 
 
 Como compilar:
 Para compilar o arquivo utilizei os seguintes comandos
