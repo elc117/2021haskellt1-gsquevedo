@@ -16,33 +16,31 @@ maxAltura = 500
 ------------------------------------------------------------------------- Informaçoes das figuras
 -----------------------------------------------------------------------
 maxRaio :: Float
-maxRaio = 5
-
-maxGap :: Float
-maxGap = 50
+maxRaio = 20
 
 maxLado :: Float
-maxLado = 80
+maxLado = 100
 
 numTriangulos :: Int
-numTriangulos = 3
+numTriangulos = 5
 
 numCirculos :: Int
-numCirculos = 5
+numCirculos = 3
 
 numRetangulo :: Int
-numRetangulo = 6
+numRetangulo = 5
 
 ----------------------------------------------------------------------
 -- Paletas de cores
 -----------------------------------------------------------------------
 rgbRetangulo :: Int -> [(Int,Int,Int)]
-rgbRetangulo n = [(a+i,i*3,i) | i <- take n(iterate(+10)a)]
-  where a = 15
+rgbRetangulo n = [(i*a,i,i-a) | i <- take n(iterate(+b)a)]
+  where a = 10
+        b = 20
 
 rgbCirculo :: Int -> [(Int,Int,Int)]
-rgbCirculo n = [(i*a, i, i-a) | i <- take n(iterate(+15)a)]
-  where a = 15
+rgbCirculo n = [(i*a, a+i, i-a) | i <- take n(iterate(+15)a)]
+  where a = raioCirc maxRaio
 
 rgbTriangulo :: Int -> [(Int,Int,Int)]
 rgbTriangulo n = [(i,0,i+a) | i <- take n(iterate(+20)a)]
@@ -54,21 +52,22 @@ rgbTriangulo n = [(i,0,i+a) | i <- take n(iterate(+20)a)]
 --muda o tipo de imagem do retangulo conforme o lado
 tipoLado :: Float -> String
 tipoLado maxLado 
-    |(maxLado >= 50  && maxLado < 100) = "screen"
-    |(maxLado >= 100 && maxLado < 150) = "difference"
-    |otherwise = "exclusion"
+    |(maxLado >= 50  && maxLado < 100) = "difference"
+    |(maxLado >= 100 && maxLado < 150) = "exclusion"
+    |otherwise = "screen"
 
 --retorna um raio a cada valor
 raioAleatorio :: Float -> Float
 raioAleatorio r = 2*pi+maxRaio
 
---muda o tipo de imagem do circulo conforme o raio
-tipoRaio :: Float -> String
-tipoRaio maxRaio 
-    |(maxRaio >= 5 && maxRaio < 10) = "luminosity"
-    |(maxRaio >= 10 && maxRaio < 15) = "screen"
-    |(maxRaio >= 15 && maxRaio < 20) = "difference"
-    |otherwise = "exclusion"
+--funçao muda a cor do circulo
+raioCirc :: Float -> Int
+raioCirc maxRaio
+  |(maxRaio >= 5 && maxRaio < 10) = 0
+  |(maxRaio >= 10 && maxRaio < 15) = 5
+  |(maxRaio >= 15 && maxRaio < 20) = 15
+  |otherwise = 50
+
 
 --muda o tipo de imagem do triangulo conforme a quantidade de fases
 tipoFases :: Int -> String
@@ -81,11 +80,11 @@ tipoFases maxFases
 -- Geração de circulos  em suas posições
 ----------------------------------------------------------------------
 genRetanguloInLine :: Int -> [Rect]
-genRetanguloInLine n  = [((maxLargura-maxLado, m*maxLado), maxLado, maxAltura) | m <- [0..fromIntegral (n-1)]]
+genRetanguloInLine n  = [((maxLargura-maxLado*m, 100*m), maxLargura, maxAltura) | m <- [0..fromIntegral (n-1)]]
 
 genCircleInLine :: Int -> [Circle] 
-genCircleInLine n = [((100,y),raioAleatorio maxRaio*m) | m <- [0..fromIntegral (n-1)]]
-  where y = 100
+genCircleInLine n = [((100,y),raioAleatorio maxRaio*m) | m <- [1..fromIntegral (n)]]
+  where y = 150
 
 genTrianguloInLine :: Int -> [Triangle]
 genTrianguloInLine n = [((maxAltura/2,m*maxAltura/fromIntegral numTriangulos),(maxAltura,maxAltura/2),(350,maxAltura/2)) | m <- [0..fromIntegral(n-1)]]
@@ -122,10 +121,10 @@ svgStyleTriangulo :: (Int,Int,Int) -> String
 svgStyleTriangulo (r,g,b) = "fill:rgb"++show(r,g,b)++";"++"stroke-width:5;stroke:rgb"++tipoFases numTriangulos++";"
 
 svgStyleRetangulo :: (Int,Int,Int) -> String
-svgStyleRetangulo (r,g,b) = "fill:rgb"++show(r,g,b)++";"++"mix-blend-mode:"++tipoLado maxLado++";"
+svgStyleRetangulo (r,g,b) = "fill:rgb"++show(r,g,b)++";"++"mix-blend-mode:exclusion;"
 
 svgStyleCirculo :: (Int,Int,Int) -> String
-svgStyleCirculo (r,g,b) = "fill:rgb"++show(r,g,b)++";"++"mix-blend-mode:"++tipoRaio maxRaio++";"
+svgStyleCirculo (r,g,b) = "fill:rgb"++show(r,g,b)++";"++"mix-blend-mode:screen;"
 
 ----------------------------------------------------------------------
 -- Gera strings SVG para uma dada lista de figuras e seus atributos de estilo
