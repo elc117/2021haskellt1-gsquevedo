@@ -19,10 +19,10 @@ maxRaio :: Float
 maxRaio = 20
 
 maxLado :: Float
-maxLado = 100
+maxLado = 50
 
 numTriangulos :: Int
-numTriangulos = 5
+numTriangulos = 10
 
 numCirculos :: Int
 numCirculos = 3
@@ -43,9 +43,9 @@ rgbCirculo n = [(i*a, a+i, i-a) | i <- take n(iterate(+15)a)]
   where a = raioCirc maxRaio
 
 rgbTriangulo :: Int -> [(Int,Int,Int)]
-rgbTriangulo n = [(i,0,i+a) | i <- take n(iterate(+20)a)]
-  where a = 20
-
+rgbTriangulo n = [(i*a,a*b,i+a) | i <- take n(iterate(+b)a)]
+  where a = corTri numTriangulos
+        b = 10
 --------------------------------------------------------------------------- Funções utilizadas para formar as figuras
 -----------------------------------------------------------------------
 
@@ -68,14 +68,13 @@ raioCirc maxRaio
   |(maxRaio >= 15 && maxRaio < 20) = 15
   |otherwise = 50
 
-
---muda o tipo de imagem do triangulo conforme a quantidade de fases
-tipoFases :: Int -> String
-tipoFases maxFases 
-    |(maxFases >= 1 && maxFases <= 5) = "(0,0,0)"
-    |(maxFases > 5 && maxFases <= 10) = "(128,0,0)"
-    |otherwise = "(0,0,255)"
-
+corTri :: Int -> Int
+corTri numTriangulos 
+  |(numTriangulos >= 1 && numTriangulos <= 5) = 5
+  |(numTriangulos > 5 && numTriangulos <= 10) = 10
+  |(numTriangulos > 10 && numTriangulos <= 15) = 15
+  |otherwise = 20
+ 
 ----------------------------------------------------------------------
 -- Geração de circulos  em suas posições
 ----------------------------------------------------------------------
@@ -118,10 +117,10 @@ svgEnd = "</svg>"
 -- Gera string com atributos de estilo para uma dada cor
 ----------------------------------------------------------------------
 svgStyleTriangulo :: (Int,Int,Int) -> String
-svgStyleTriangulo (r,g,b) = "fill:rgb"++show(r,g,b)++";"++"stroke-width:5;stroke:rgb"++tipoFases numTriangulos++";"
+svgStyleTriangulo (r,g,b) = "fill:rgb"++show(r,g,b)++";"++"stroke-width:5;stroke:rgb(0,0,0);"
 
 svgStyleRetangulo :: (Int,Int,Int) -> String
-svgStyleRetangulo (r,g,b) = "fill:rgb"++show(r,g,b)++";"++"mix-blend-mode:exclusion;"
+svgStyleRetangulo (r,g,b) = "fill:rgb"++show(r,g,b)++";"++"mix-blend-mode:"++tipoLado maxLado++";"
 
 svgStyleCirculo :: (Int,Int,Int) -> String
 svgStyleCirculo (r,g,b) = "fill:rgb"++show(r,g,b)++";"++"mix-blend-mode:screen;"
