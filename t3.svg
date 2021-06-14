@@ -14,9 +14,9 @@
 <circle cx='100.000' cy='150.000' r='63.850' style='fill:rgb(4000,130,30);mix-blend-mode:screen;'/>
 <circle cx='100.000' cy='150.000' r='85.133' style='fill:rgb(4750,145,45);mix-blend-mode:screen;'/>
 <circle cx='100.000' cy='150.000' r='106.416' style='fill:rgb(5500,160,60);mix-blend-mode:screen;'/>
-<rect x='800.000' y='0.000' width='800.00' height='500.00' style='fill:rgb(225,150,225);mix-blend-mode:difference;' />
-<rect x='700.000' y='100.000' width='800.00' height='500.00' style='fill:rgb(375,150,375);mix-blend-mode:difference;' />
-<rect x='600.000' y='200.000' width='800.00' height='500.00' style='fill:rgb(525,150,525);mix-blend-mode:difference;' />
-<rect x='500.000' y='300.000' width='800.00' height='500.00' style='fill:rgb(675,150,675);mix-blend-mode:difference;' />
-<rect x='400.000' y='400.000' width='800.00' height='500.00' style='fill:rgb(825,150,825);mix-blend-mode:difference;' />
+<rect x='700.000' y='0.000' width='800.00' height='500.00' style='fill:rgb(10000,100,10000);mix-blend-mode:difference;stroke:rgb(0,0,0);stroke-width:3;' />
+<rect x='600.000' y='100.000' width='800.00' height='500.00' style='fill:rgb(11000,100,11000);mix-blend-mode:difference;stroke:rgb(0,0,0);stroke-width:3;' />
+<rect x='500.000' y='200.000' width='800.00' height='500.00' style='fill:rgb(12000,100,12000);mix-blend-mode:difference;stroke:rgb(0,0,0);stroke-width:3;' />
+<rect x='400.000' y='300.000' width='800.00' height='500.00' style='fill:rgb(13000,100,13000);mix-blend-mode:difference;stroke:rgb(0,0,0);stroke-width:3;' />
+<rect x='300.000' y='400.000' width='800.00' height='500.00' style='fill:rgb(14000,100,14000);mix-blend-mode:difference;stroke:rgb(0,0,0);stroke-width:3;' />
 </svg>
