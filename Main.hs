@@ -82,11 +82,11 @@ genRetanguloInLine :: Int -> [Rect]
 genRetanguloInLine n  = [((maxLargura-convLado*m-100, 100*m), maxLargura, maxAltura) | m <- [0..fromIntegral (n-1)]]
 
 genCircleInLine :: Int -> [Circle] 
-genCircleInLine n = [((100,y),raioAleatorio maxRaio*m) | m <- [1..fromIntegral (n)]]
+genCircleInLine n = [((100,y), raioAleatorio maxRaio*m) | m <- [1..fromIntegral (n)]]
   where y = 150
 
 genTrianguloInLine :: Int -> [Triangle]
-genTrianguloInLine n = [((maxAltura/2,m*maxAltura/convTri),(maxAltura,maxAltura/2),(maxAltura/2+100,maxAltura/2)) | m <- [0..fromIntegral(n-1)]]
+genTrianguloInLine n = [((maxAltura/2, m*maxAltura/convTri),(maxAltura, maxAltura/2),(maxAltura/2+100, maxAltura/2)) | m <- [0..fromIntegral(n-1)]]
 
 --------------------------------------------------------------------
 -- Strings SVG
