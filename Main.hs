@@ -5,15 +5,17 @@ type Rect      = (Point,Float,Float)
 type Circle    = (Point,Float)
 type Triangle  = (Point,Point,Point)
 
----------------------------------------------------------------------- Informações da imagem 
---------------------------------------------------------------------
+-----------------------------------------------------------------
+---Informações da imagem 
+-----------------------------------------------------------------
 maxLargura :: Float
 maxLargura = 800
 
 maxAltura :: Float
 maxAltura = 500
 
------------------------------------------------------------------------ Informaçoes das figuras
+-------------------------------------------------------------------
+---Informaçoes das figuras
 --------------------------------------------------------------------
 maxRaio :: Float
 maxRaio = 15
@@ -47,7 +49,8 @@ rgbTriangulo n = [(i*a,a*b,i+a) | i <- take n(iterate(+b)a)]
   where a = corTri numTriangulos
         b = 10
 
---------------------------------------------------------------------------- Funções utilizadas para formar as figuras
+------------------------------------------------------------------
+-- Funções utilizadas para formar as figuras
 --------------------------------------------------------------------
 
 --retorna um raio a cada valor
@@ -103,7 +106,8 @@ svgTriangulo :: Triangle -> String -> String
 svgTriangulo ((x1,y1),(x2,y2),(x3,y3)) style =
   printf "<polygon points = '%.3f,%.3f %.3f,%.3f %.3f,%.3f' style='%s' />\n" x1 y1 x2 y2 x3 y3 style
 
------------------------------------------------------------------------- String inicial do SVG
+-------------------------------------------------------------------
+--String inicial do SVG
 --------------------------------------------------------------------
 svgBegin :: Float -> Float -> String
 svgBegin w h = printf "<svg width='%.2f' height='%.2f' xmlns='http://www.w3.org/2000/svg'>\n" w h 
@@ -131,7 +135,8 @@ svgStyleCirculo (r,g,b) = "fill:rgb"++show(r,g,b)++";"++"mix-blend-mode:screen;"
 svgElements :: (a -> String -> String) -> [a] -> [String] -> String
 svgElements func elements styles = concat $ zipWith func elements styles
 
----------------------------------------------------------------------- FUNÇÃO PRINCIPAL
+-------------------------------------------------------------------
+-- FUNÇÃO PRINCIPAL
 --------------------------------------------------------------------
 main :: IO ()
 main = do
