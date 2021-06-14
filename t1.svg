@@ -1,0 +1,15 @@
+<svg width='800.00' height='500.00' xmlns='http://www.w3.org/2000/svg'>
+<polygon points = '250.000,0.000 500.000,250.000 350.000,250.000' style='fill:rgb(25,50,10);stroke-width:5;stroke:rgb(0,0,0);' />
+<polygon points = '250.000,166.667 500.000,250.000 350.000,250.000' style='fill:rgb(75,50,20);stroke-width:5;stroke:rgb(0,0,0);' />
+<polygon points = '250.000,333.333 500.000,250.000 350.000,250.000' style='fill:rgb(125,50,30);stroke-width:5;stroke:rgb(0,0,0);' />
+<circle cx='100.000' cy='150.000' r='11.283' style='fill:rgb(0,0,0);mix-blend-mode:screen;'/>
+<circle cx='100.000' cy='150.000' r='22.566' style='fill:rgb(0,15,15);mix-blend-mode:screen;'/>
+<circle cx='100.000' cy='150.000' r='33.850' style='fill:rgb(0,30,30);mix-blend-mode:screen;'/>
+<circle cx='100.000' cy='150.000' r='45.133' style='fill:rgb(0,45,45);mix-blend-mode:screen;'/>
+<circle cx='100.000' cy='150.000' r='56.416' style='fill:rgb(0,60,60);mix-blend-mode:screen;'/>
+<rect x='800.000' y='0.000' width='800.00' height='500.00' style='fill:rgb(400,200,400);mix-blend-mode:difference;' />
+<rect x='700.000' y='100.000' width='800.00' height='500.00' style='fill:rgb(600,200,600);mix-blend-mode:difference;' />
+<rect x='600.000' y='200.000' width='800.00' height='500.00' style='fill:rgb(800,200,800);mix-blend-mode:difference;' />
+<rect x='500.000' y='300.000' width='800.00' height='500.00' style='fill:rgb(1000,200,1000);mix-blend-mode:difference;' />
+<rect x='400.000' y='400.000' width='800.00' height='500.00' style='fill:rgb(1200,200,1200);mix-blend-mode:difference;' />
+</svg>
