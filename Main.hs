@@ -136,7 +136,8 @@ svgStyleCirculo (r,g,b) = "fill:rgb"++show(r,g,b)++";"++"mix-blend-mode:screen;"
 svgElements :: (a -> String -> String) -> [a] -> [String] -> String
 svgElements func elements styles = concat $ zipWith func elements styles
 
----------------------------------------------------------------------- FUNÇÃO PRINCIPAL
+--------------------------------------------------------------------
+-- FUNÇÃO PRINCIPAL
 --------------------------------------------------------------------
 main :: IO ()
 main = do
