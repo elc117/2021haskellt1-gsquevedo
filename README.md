@@ -16,4 +16,3 @@ Fiz algumas alterações simples no Generative Art, a princípio a ideia foi des
 ![img](./figura.svg)
 ![img](/t2.svg)
 ![img](/t3.svg)
-
