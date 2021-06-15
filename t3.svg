@@ -1,22 +1,52 @@
 <svg width='800.00' height='500.00' xmlns='http://www.w3.org/2000/svg'>
-<polygon points = '250.000,0.000 500.000,250.000 350.000,250.000' style='fill:rgb(100,100,20);stroke-width:5;stroke:rgb(0,0,0);' />
-<polygon points = '250.000,50.000 500.000,250.000 350.000,250.000' style='fill:rgb(200,100,30);stroke-width:5;stroke:rgb(0,0,0);' />
-<polygon points = '250.000,100.000 500.000,250.000 350.000,250.000' style='fill:rgb(300,100,40);stroke-width:5;stroke:rgb(0,0,0);' />
-<polygon points = '250.000,150.000 500.000,250.000 350.000,250.000' style='fill:rgb(400,100,50);stroke-width:5;stroke:rgb(0,0,0);' />
-<polygon points = '250.000,200.000 500.000,250.000 350.000,250.000' style='fill:rgb(500,100,60);stroke-width:5;stroke:rgb(0,0,0);' />
-<polygon points = '250.000,250.000 500.000,250.000 350.000,250.000' style='fill:rgb(600,100,70);stroke-width:5;stroke:rgb(0,0,0);' />
-<polygon points = '250.000,300.000 500.000,250.000 350.000,250.000' style='fill:rgb(700,100,80);stroke-width:5;stroke:rgb(0,0,0);' />
-<polygon points = '250.000,350.000 500.000,250.000 350.000,250.000' style='fill:rgb(800,100,90);stroke-width:5;stroke:rgb(0,0,0);' />
-<polygon points = '250.000,400.000 500.000,250.000 350.000,250.000' style='fill:rgb(900,100,100);stroke-width:5;stroke:rgb(0,0,0);' />
-<polygon points = '250.000,450.000 500.000,250.000 350.000,250.000' style='fill:rgb(1000,100,110);stroke-width:5;stroke:rgb(0,0,0);' />
-<circle cx='100.000' cy='150.000' r='21.283' style='fill:rgb(2500,100,0);mix-blend-mode:screen;'/>
-<circle cx='100.000' cy='150.000' r='42.566' style='fill:rgb(3250,115,15);mix-blend-mode:screen;'/>
-<circle cx='100.000' cy='150.000' r='63.850' style='fill:rgb(4000,130,30);mix-blend-mode:screen;'/>
-<circle cx='100.000' cy='150.000' r='85.133' style='fill:rgb(4750,145,45);mix-blend-mode:screen;'/>
-<circle cx='100.000' cy='150.000' r='106.416' style='fill:rgb(5500,160,60);mix-blend-mode:screen;'/>
-<rect x='700.000' y='0.000' width='800.00' height='500.00' style='fill:rgb(10000,100,10000);mix-blend-mode:difference;stroke:rgb(0,0,0);stroke-width:3;' />
-<rect x='600.000' y='100.000' width='800.00' height='500.00' style='fill:rgb(11000,100,11000);mix-blend-mode:difference;stroke:rgb(0,0,0);stroke-width:3;' />
-<rect x='500.000' y='200.000' width='800.00' height='500.00' style='fill:rgb(12000,100,12000);mix-blend-mode:difference;stroke:rgb(0,0,0);stroke-width:3;' />
-<rect x='400.000' y='300.000' width='800.00' height='500.00' style='fill:rgb(13000,100,13000);mix-blend-mode:difference;stroke:rgb(0,0,0);stroke-width:3;' />
-<rect x='300.000' y='400.000' width='800.00' height='500.00' style='fill:rgb(14000,100,14000);mix-blend-mode:difference;stroke:rgb(0,0,0);stroke-width:3;' />
+<polygon points = '250.000,0.000 500.000,250.000 350.000,250.000' style='fill:rgb(25,50,10);stroke-width:5;stroke:rgb(0,0,0);' />
+<polygon points = '250.000,33.333 500.000,250.000 350.000,250.000' style='fill:rgb(75,50,20);stroke-width:5;stroke:rgb(0,0,0);' />
+<polygon points = '250.000,66.667 500.000,250.000 350.000,250.000' style='fill:rgb(125,50,30);stroke-width:5;stroke:rgb(0,0,0);' />
+<polygon points = '250.000,100.000 500.000,250.000 350.000,250.000' style='fill:rgb(175,50,40);stroke-width:5;stroke:rgb(0,0,0);' />
+<polygon points = '250.000,133.333 500.000,250.000 350.000,250.000' style='fill:rgb(225,50,50);stroke-width:5;stroke:rgb(0,0,0);' />
+<polygon points = '250.000,166.667 500.000,250.000 350.000,250.000' style='fill:rgb(275,50,60);stroke-width:5;stroke:rgb(0,0,0);' />
+<polygon points = '250.000,200.000 500.000,250.000 350.000,250.000' style='fill:rgb(325,50,70);stroke-width:5;stroke:rgb(0,0,0);' />
+<polygon points = '250.000,233.333 500.000,250.000 350.000,250.000' style='fill:rgb(375,50,80);stroke-width:5;stroke:rgb(0,0,0);' />
+<polygon points = '250.000,266.667 500.000,250.000 350.000,250.000' style='fill:rgb(425,50,90);stroke-width:5;stroke:rgb(0,0,0);' />
+<polygon points = '250.000,300.000 500.000,250.000 350.000,250.000' style='fill:rgb(475,50,100);stroke-width:5;stroke:rgb(0,0,0);' />
+<polygon points = '250.000,333.333 500.000,250.000 350.000,250.000' style='fill:rgb(525,50,110);stroke-width:5;stroke:rgb(0,0,0);' />
+<polygon points = '250.000,366.667 500.000,250.000 350.000,250.000' style='fill:rgb(575,50,120);stroke-width:5;stroke:rgb(0,0,0);' />
+<polygon points = '250.000,400.000 500.000,250.000 350.000,250.000' style='fill:rgb(625,50,130);stroke-width:5;stroke:rgb(0,0,0);' />
+<polygon points = '250.000,433.333 500.000,250.000 350.000,250.000' style='fill:rgb(675,50,140);stroke-width:5;stroke:rgb(0,0,0);' />
+<polygon points = '250.000,466.667 500.000,250.000 350.000,250.000' style='fill:rgb(725,50,150);stroke-width:5;stroke:rgb(0,0,0);' />
+<circle cx='150.000' cy='200.000' r='21.283' style='fill:rgb(25,50,10);mix-blend-mode:screen;'/>
+<circle cx='150.000' cy='200.000' r='42.566' style='fill:rgb(75,50,20);mix-blend-mode:screen;'/>
+<circle cx='150.000' cy='200.000' r='63.850' style='fill:rgb(125,50,30);mix-blend-mode:screen;'/>
+<circle cx='150.000' cy='200.000' r='85.133' style='fill:rgb(175,50,40);mix-blend-mode:screen;'/>
+<circle cx='150.000' cy='200.000' r='106.416' style='fill:rgb(225,50,50);mix-blend-mode:screen;'/>
+<rect x='0.000' y='400.000' width='50.00' height='50.00' style='fill:rgb(0,0,40);mix-blend-mode:normal;' />
+<rect x='60.000' y='400.000' width='50.00' height='50.00' style='fill:rgb(0,0,80);mix-blend-mode:normal;' />
+<rect x='120.000' y='400.000' width='50.00' height='50.00' style='fill:rgb(0,0,120);mix-blend-mode:normal;' />
+<rect x='180.000' y='400.000' width='50.00' height='50.00' style='fill:rgb(0,0,160);mix-blend-mode:normal;' />
+<rect x='240.000' y='400.000' width='50.00' height='50.00' style='fill:rgb(0,0,200);mix-blend-mode:normal;' />
+<rect x='300.000' y='400.000' width='50.00' height='50.00' style='fill:rgb(0,0,240);mix-blend-mode:normal;' />
+<rect x='360.000' y='400.000' width='50.00' height='50.00' style='fill:rgb(0,0,280);mix-blend-mode:normal;' />
+<rect x='420.000' y='400.000' width='50.00' height='50.00' style='fill:rgb(0,0,320);mix-blend-mode:normal;' />
+<rect x='480.000' y='400.000' width='50.00' height='50.00' style='fill:rgb(0,0,360);mix-blend-mode:normal;' />
+<rect x='540.000' y='400.000' width='50.00' height='50.00' style='fill:rgb(0,0,400);mix-blend-mode:normal;' />
+<rect x='600.000' y='400.000' width='50.00' height='50.00' style='fill:rgb(0,0,440);mix-blend-mode:normal;' />
+<rect x='660.000' y='400.000' width='50.00' height='50.00' style='fill:rgb(0,0,480);mix-blend-mode:normal;' />
+<rect x='720.000' y='400.000' width='50.00' height='50.00' style='fill:rgb(0,0,520);mix-blend-mode:normal;' />
+<rect x='780.000' y='400.000' width='50.00' height='50.00' style='fill:rgb(0,0,560);mix-blend-mode:normal;' />
+<rect x='840.000' y='400.000' width='50.00' height='50.00' style='fill:rgb(0,0,600);mix-blend-mode:normal;' />
+<rect x='700.000' y='0.000' width='50.00' height='50.00' style='fill:rgb(0,0,40);mix-blend-mode:normal;' />
+<rect x='700.000' y='60.000' width='50.00' height='50.00' style='fill:rgb(0,0,80);mix-blend-mode:normal;' />
+<rect x='700.000' y='120.000' width='50.00' height='50.00' style='fill:rgb(0,0,120);mix-blend-mode:normal;' />
+<rect x='700.000' y='180.000' width='50.00' height='50.00' style='fill:rgb(0,0,160);mix-blend-mode:normal;' />
+<rect x='700.000' y='240.000' width='50.00' height='50.00' style='fill:rgb(0,0,200);mix-blend-mode:normal;' />
+<rect x='700.000' y='300.000' width='50.00' height='50.00' style='fill:rgb(0,0,240);mix-blend-mode:normal;' />
+<rect x='700.000' y='360.000' width='50.00' height='50.00' style='fill:rgb(0,0,280);mix-blend-mode:normal;' />
+<rect x='700.000' y='420.000' width='50.00' height='50.00' style='fill:rgb(0,0,320);mix-blend-mode:normal;' />
+<rect x='700.000' y='480.000' width='50.00' height='50.00' style='fill:rgb(0,0,360);mix-blend-mode:normal;' />
+<rect x='700.000' y='540.000' width='50.00' height='50.00' style='fill:rgb(0,0,400);mix-blend-mode:normal;' />
+<rect x='700.000' y='600.000' width='50.00' height='50.00' style='fill:rgb(0,0,440);mix-blend-mode:normal;' />
+<rect x='700.000' y='660.000' width='50.00' height='50.00' style='fill:rgb(0,0,480);mix-blend-mode:normal;' />
+<rect x='700.000' y='720.000' width='50.00' height='50.00' style='fill:rgb(0,0,520);mix-blend-mode:normal;' />
+<rect x='700.000' y='780.000' width='50.00' height='50.00' style='fill:rgb(0,0,560);mix-blend-mode:normal;' />
+<rect x='700.000' y='840.000' width='50.00' height='50.00' style='fill:rgb(0,0,600);mix-blend-mode:normal;' />
 </svg>
