@@ -10,7 +10,7 @@ Para compilar o arquivo utilizei os seguintes comandos
 - main 
  
 Como funciona: 
-Deve-se informar as informações pedidas pelo programa (altura e largura da imagem, quantidade de figuras, raio e posição do círculo)
+Deve-se informar as informações pedidas pelo programa (largura e altura da imagem (por exemplo, 800 e 500) , quantidade de figuras, raio e posição do círculo)
 Fiz algumas alterações simples no Generative Art, a princípio a ideia foi desenhar círculos, retângulo e triângulos que serão controlados pelas coordenadas que o usuário informar pela linha de comando(raio e quantidade de figuras) ou no arquivo(a altura e largura do retângulo).
 
 - O círculo são interligados pelo tamanho do raio. Tornei a posição do círculo dinâmica, o usuário digita a posição que desejar. Os círculos são desenhados um dentro do outro, pois a função genCircleInLine, modifica o raio a cada interação da list, também uso uma função para calcular o raio do círculo utilizando a constante Pi. Para mudar a cor do círculo, fiz a função rgbCirculo, deixando uma variável 'a' em aberto, que é utilizada para modificar a cor conforme o raio, nessa variável chamo a função(corCirc). Obs: Utilizei o tipo "screen" no style do circulo para deixar um efeito diferente. Uma maneira de conferir que o circulo está sendo desenhado um em cima do outro com raios diferentes.
