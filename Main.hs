@@ -147,7 +147,7 @@ main = do
         nretangulo = read numRetangulo
 
         svgReact = svgElements svgRetangulo rect (map svgStyleRetangulo corRect)
-        rect = genRectInLine nrect w (read alt) (read larg)
+        rect = genRectInLine nrect w (read larg) (read alt)
         corRect = rgbRetangulo nrect 
         nrect = read numRetangulo
 
